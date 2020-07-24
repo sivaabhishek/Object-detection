@@ -1,5 +1,7 @@
 # Object-detection
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/sivaabhishek/Object-detection/blob/master/LICENSE)
+
 You can find the Weights.weights in link  https://pjreddie.com/darknet/yolo/
 After the download rename yolov3.weights (236MB) to Weights.weights and place it in the dataset folder.
 
