@@ -2,10 +2,6 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/sivaabhishek/Object-detection/blob/master/LICENSE)
 
-You can find the Weights.weights in link  https://pjreddie.com/darknet/yolo/
-After the download rename yolov3.weights (236MB) to Weights.weights and place it in the dataset folder.
-
-After that just run the object detection.py and you will be asked to select an image and you will see the output.
 
 
 In the object detection process, the prediction is done at three scales, which are precisely given by downsampling the dimensions of the input image by 32, 16 and 8 respectively.
@@ -22,6 +18,13 @@ Like before, a few 1 x 1 convolutional layers follow to fuse the information fro
 ## Detection of objects of various sizes
 
 The 13 x 13 layer is responsible for detecting large objects, whereas the 52 x 52 layer detects the smaller objects, with the 26 x 26 layer detecting medium objects. Here is a comparative analysis of different objects picked in the same object by different layers.
+
+# Instruction to run program
+
+You can find the Weights.weights in link  https://pjreddie.com/darknet/yolo/
+After the download rename yolov3.weights (236MB) to Weights.weights and place it in the dataset folder.
+
+After that just run the object detection.py and you will be asked to select an image and you will see the output.
 
 ## Example 1
 
