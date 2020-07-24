@@ -4,7 +4,7 @@
 
 
 
-In the object detection process, the prediction is done at three scales, which are precisely given by downsampling the dimensions of the input image by 32, 16 and 8 respectively.
+In the object detection process, the prediction of the class is done at three scales, which are precisely given by downsampling the dimensions of the input image by 32, 16 and 8 respectively.
 
 The first detection is made by the 82nd layer. For the first 81 layers, the image is down sampled by the network, such that the 81st layer has a stride of 32. If we have an image of 416 x 416, the resultant feature map would be of size 13 x 13.
 One detection is made here using the 1 x 1 detection kernel, giving us a detection feature map of 13 x 13 x 255.
