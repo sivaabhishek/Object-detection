@@ -3,6 +3,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/sivaabhishek/Object-detection/blob/master/LICENSE)
 
 
+We apply a single neural network to the full image. This network divides the image into regions and predicts bounding boxes and probabilities for each region. These bounding boxes are weighted by the predicted probabilities. It looks at the whole image at test time so its predictions are informed by global context in the image. It also makes predictions with a single network evaluation unlike systems like R-CNN which require thousands for a single image. This makes it extremely fast, more than 1000x faster than R-CNN
+
 
 In the object detection process, the prediction of the class is done at three scales, which are precisely given by downsampling the dimensions of the input image by 32, 16 and 8 respectively.
 
