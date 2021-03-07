@@ -28,13 +28,6 @@ After the download rename yolov3.weights (236MB) to Weights.weights and place it
 
 After that just run the object detection.py and you will be asked to select an image and you will see the output.
 
-## Example 1
-
-![](https://serving.photos.photobox.com/00698671d5e6ea9017497487ab132a3b29718d777da910a23b9d10a658efd037bbbf3cbd.jpg)
-
-
-![](https://serving.photos.photobox.com/14953861b304a2c8ab55f0409c1f30237c7fd520896245424a5c18bd2f5c62b527436cda.jpg)
-
 ## Example 2
 
 ![](https://i.ibb.co/b7b4NHG/bc.jpg)
